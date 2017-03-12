@@ -1,0 +1,18 @@
+"Part";"Value";"Device";"Package";"Description";"PROD_ID";
+"+OUT-";"";"M02PTH";"1X02";"Standard 2-pin 0.1" header. Use with";"";
+"1UF";"";"CAP0603-CAP";"0603-CAP";"Capacitor";"";
+"2.2UF";"";"CAP0603-CAP";"0603-CAP";"Capacitor";"";
+"C3";"4.7uF";"CAP0402-CAP";"0402-CAP";"Capacitor";"";
+"C4";"4.7uF";"CAP0402-CAP";"0402-CAP";"Capacitor";"";
+"D1";"GREEN";"LED0603";"LED-0603";"LEDs";"";
+"D2";"MBRA140";"MBRA140";"SMA-DIODE";"40V, 1A Schottky rectifier";"DIO-08053";
+"D11";"RED";"LED0603";"LED-0603";"LEDs";"";
+"JMP";"";"M02PTH";"1X02";"Header 2";"";
+"JP2";"";"M02PTH";"1X02";"Standard 2-pin 0.1" header. Use with";"";
+"JP7";"LiPo Battery";"M02-JST-2MM-SMT";"JST-2-SMD";"Header 2";"";
+"OPT_10NF";"";"CAP0603-CAP";"0603-CAP";"Capacitor";"";
+"R1";"R330";"RESISTOR0402-RES";"0402-RES";"Resistor";"";
+"R2K";"2K";"RESISTOR0402-RES";"0402-RES";"Resistor";"";
+"R330";"330";"RESISTOR0402-RES";"0402-RES";"Resistor";"";
+"U$2";"LP2985";"LP2985";"LP2985";"";"";
+"U1";"MCP73831";"MCP73831";"SOT23-5";"Microchip's MCP73831";"";

@@ -1,0 +1,27 @@
+Partlist exported from C:/Users/admin/Documents/GitHub/basic-inline-turbidimeter/hardware/basic-inline-turbidimeter_main_board_v2.0.sch at 3/9/2017 1:09 PM
+
+Part     Value              Device             Package            Description                          MF MPN          OC_FARNELL OC_NEWARK PROD_ID   
+*RTC                        DS3231M            DS3231M                                                                                                
+C1       18p                CAP0603-CAP        0603-CAP           Capacitor                                                                           
+C2       18p                CAP0603-CAP        0603-CAP           Capacitor                                                                           
+C4       100n               CAP0603-CAP        0603-CAP           Capacitor                                                                           
+C5       100n               CAP0603-CAP        0603-CAP           Capacitor                                                                           
+C6       100n               CAP0603-CAP        0603-CAP           Capacitor                                                                           
+C7       100n               CAP0603-CAP        0603-CAP           Capacitor                                                                           
+C8       100n               CAP0603-CAP        0603-CAP           Capacitor                                                                           
+C12      10uF               CAP0603-CAP        0603-CAP           Capacitor                                                                           
+IC1      MEGA8-AI           MEGA8-AI           TQFP32-08          MICROCONTROLLER                         ATMEGA8-16AU 9171371    73M8863             
+JP1                         M02PTH             1X02               Standard 2-pin 0.1" header. Use with                                                
+JP2                         M01PTH             1X01               Header 1                                                                            
+JP5                         M06SILK_FEMALE_PTH 1X06               Header 6                                                                  CONN-08437
+JP6                         M06SILK_FEMALE_PTH 1X06               Header 6                                                                  CONN-08437
+JP8                         M07                1X07               Header 7                                                                            
+MICRO-SD MICROSD-1010030368 MICROSD-1010030368 MICROSD-1010030368                                                                                     
+PAD1     WIREPADSMD5-2,5    WIREPADSMD5-2,5    5-2,5              Wire PAD connect wire on PCB                                                        
+PAD2     WIREPADSMD5-2,5    WIREPADSMD5-2,5    5-2,5              Wire PAD connect wire on PCB                                                        
+PAD3     WIREPADSMD5-2,5    WIREPADSMD5-2,5    5-2,5              Wire PAD connect wire on PCB                                                        
+PAD4     WIREPADSMD5-2,5    WIREPADSMD5-2,5    5-2,5              Wire PAD connect wire on PCB                                                        
+R1       10k                RESISTOR0603       0603-RES           Resistor                                                                            
+R2       1k                 RESISTOR0603       0603-RES           Resistor                                                                            
+U$4      LMT86              LMT86              LMT86                                                                                                  
+Y1                          CRYSTAL5X3         CRYSTAL-SMD-5X3    Crystals                                                                            

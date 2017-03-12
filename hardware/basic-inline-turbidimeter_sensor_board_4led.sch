@@ -4959,6 +4959,90 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
+</package>
+<package name="DUMMY">
+<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
+</package>
+</packages>
+<symbols>
+<symbol name="LETTER_L">
+<wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
+<wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.254" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.254" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.254" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.254" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.254" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.254" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94" font="vector">REV:</text>
+<text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
+<text x="15.494" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="2.54" y="31.75" size="1.9304" layer="94">Released under the Creative Commons</text>
+<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
+<text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME-LETTER" prefix="FRAME">
+<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
+Standard 8.5x11 US Letter frame</description>
+<gates>
+<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
+<gate name="V" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="" package="CREATIVE_COMMONS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NO_PACKAGE" package="DUMMY">
+<technologies>
+<technology name="">
+<attribute name="DESIGNER" value="Nobody" constant="no"/>
+<attribute name="VERSION" value="v01" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4973,38 +5057,42 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED3" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED4" library="SparkFun-LED" deviceset="LED" device="5MM"/>
-<part name="U$3" library="open_source_turbidimeter" deviceset="TSL230RD" device="SMD"/>
+<part name="S1" library="open_source_turbidimeter" deviceset="TSL230RD" device="SMD"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M06" device="SIP"/>
+<part name="HS1" library="SparkFun-Connectors" deviceset="M06" device="SIP"/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
-<part name="D5" library="diode" deviceset="DIODE-" device="SOD123" value="AL5809"/>
-<part name="D6" library="diode" deviceset="DIODE-" device="SOD123" value="AL5809"/>
+<part name="D3" library="diode" deviceset="DIODE-" device="SOD123" value="AL5809"/>
+<part name="D4" library="diode" deviceset="DIODE-" device="SOD123" value="AL5809"/>
 <part name="D1" library="diode" deviceset="DIODE-" device="SOD123" value="AL5809"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="SOD123" value="AL5809"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
+<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="104.14" y="-167.64" size="1.778" layer="94">Chris Kelley</text>
 </plain>
 <instances>
 <instance part="LED2" gate="G$1" x="22.86" y="-25.4"/>
 <instance part="LED1" gate="G$1" x="22.86" y="-53.34"/>
 <instance part="LED3" gate="G$1" x="22.86" y="-78.74"/>
 <instance part="LED4" gate="G$1" x="22.86" y="-106.68"/>
-<instance part="U$3" gate="G$1" x="30.48" y="-147.32" rot="R90"/>
+<instance part="S1" gate="G$1" x="30.48" y="-147.32" rot="R90"/>
 <instance part="C2" gate="G$1" x="22.86" y="-157.48" rot="R90"/>
-<instance part="JP1" gate="G$1" x="91.44" y="-78.74" rot="R180"/>
+<instance part="HS1" gate="G$1" x="91.44" y="-78.74" rot="R180"/>
 <instance part="JP5" gate="G$1" x="60.96" y="-76.2" rot="R180"/>
 <instance part="JP6" gate="G$1" x="60.96" y="-88.9" rot="R180"/>
 <instance part="GND1" gate="1" x="81.28" y="-88.9"/>
-<instance part="D5" gate="G$1" x="0" y="-20.32"/>
-<instance part="D6" gate="G$1" x="0" y="-48.26"/>
+<instance part="D3" gate="G$1" x="0" y="-20.32"/>
+<instance part="D4" gate="G$1" x="0" y="-48.26"/>
 <instance part="D1" gate="G$1" x="-2.54" y="-73.66"/>
 <instance part="D2" gate="G$1" x="-2.54" y="-101.6"/>
 <instance part="JP2" gate="G$1" x="60.96" y="-101.6" rot="R180"/>
+<instance part="FRAME1" gate="G$1" x="-71.12" y="-177.8"/>
+<instance part="FRAME1" gate="V" x="76.2" y="-177.8"/>
 </instances>
 <busses>
 </busses>
@@ -5034,7 +5122,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="-15.24" y="-114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="S1" gate="G$1" pin="GND"/>
 <wire x1="-2.54" y1="-144.78" x2="5.08" y2="-144.78" width="0.1524" layer="91"/>
 <label x="-2.54" y="-144.78" size="1.778" layer="95"/>
 <wire x1="5.08" y1="-144.78" x2="10.16" y2="-144.78" width="0.1524" layer="91"/>
@@ -5044,7 +5132,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="5.08" y1="-157.48" x2="17.78" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="S3"/>
+<pinref part="S1" gate="G$1" pin="S3"/>
 <wire x1="48.26" y1="-129.54" x2="35.56" y2="-129.54" width="0.1524" layer="91"/>
 <label x="43.18" y="-129.54" size="1.778" layer="95"/>
 </segment>
@@ -5054,7 +5142,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="43.18" y="-73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="6"/>
+<pinref part="HS1" gate="G$1" pin="6"/>
 <wire x1="78.74" y1="-86.36" x2="81.28" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="81.28" y1="-86.36" x2="86.36" y2="-86.36" width="0.1524" layer="91"/>
@@ -5091,7 +5179,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="43.18" y="-76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="OUT"/>
+<pinref part="S1" gate="G$1" pin="OUT"/>
 <wire x1="48.26" y1="-139.7" x2="35.56" y2="-139.7" width="0.1524" layer="91"/>
 <label x="43.18" y="-139.7" size="1.778" layer="95"/>
 </segment>
@@ -5104,30 +5192,30 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </segment>
 <segment>
 <wire x1="-10.16" y1="-20.32" x2="-2.54" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="A"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 <label x="-10.16" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC1_2" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="OE"/>
+<pinref part="S1" gate="G$1" pin="OE"/>
 <wire x1="-2.54" y1="-139.7" x2="10.16" y2="-139.7" width="0.1524" layer="91"/>
 <label x="-2.54" y="-139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="5"/>
+<pinref part="HS1" gate="G$1" pin="5"/>
 <wire x1="78.74" y1="-83.82" x2="86.36" y2="-83.82" width="0.1524" layer="91"/>
 <label x="73.66" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC_2" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="S2"/>
+<pinref part="S1" gate="G$1" pin="S2"/>
 <wire x1="48.26" y1="-134.62" x2="35.56" y2="-134.62" width="0.1524" layer="91"/>
 <label x="43.18" y="-134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="VDD"/>
+<pinref part="S1" gate="G$1" pin="VDD"/>
 <wire x1="48.26" y1="-144.78" x2="40.64" y2="-144.78" width="0.1524" layer="91"/>
 <label x="43.18" y="-144.78" size="1.778" layer="95"/>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -5137,13 +5225,13 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <junction x="40.64" y="-144.78"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="4"/>
+<pinref part="HS1" gate="G$1" pin="4"/>
 <wire x1="81.28" y1="-81.28" x2="86.36" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-81.28" x2="81.28" y2="-81.28" width="0.1524" layer="91"/>
 <label x="73.66" y="-81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="S0"/>
+<pinref part="S1" gate="G$1" pin="S0"/>
 <wire x1="-2.54" y1="-129.54" x2="10.16" y2="-129.54" width="0.1524" layer="91"/>
 <label x="-2.54" y="-129.54" size="1.778" layer="95"/>
 </segment>
@@ -5155,14 +5243,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="43.18" y="-86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="A"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="-2.54" y1="-48.26" x2="-10.16" y2="-48.26" width="0.1524" layer="91"/>
 <label x="-10.16" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="22.86" y1="-20.32" x2="22.86" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-20.32" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
@@ -5170,7 +5258,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="D6" gate="G$1" pin="C"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="22.86" y1="-48.26" x2="22.86" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-48.26" x2="22.86" y2="-48.26" width="0.1524" layer="91"/>
@@ -5199,7 +5287,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="43.18" y="-101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="S1"/>
+<pinref part="S1" gate="G$1" pin="S1"/>
 <wire x1="-2.54" y1="-134.62" x2="10.16" y2="-134.62" width="0.1524" layer="91"/>
 <label x="-2.54" y="-134.62" size="1.778" layer="95"/>
 </segment>
